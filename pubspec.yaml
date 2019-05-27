@@ -54,9 +54,9 @@ flutter:
   # example:
 
   fonts:
-    - family: Acme
+    - family: Source Sans Pro
       fonts:
-        - asset: fonts/Acme 5 Wide Bold Xtnd.ttf
+        - asset: fonts/SourceSansPro-Regular.ttf
   #      - asset: fonts/Schyler-Italic.ttf
   #         style: italic
     - family: Blanka
