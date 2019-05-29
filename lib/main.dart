@@ -51,26 +51,50 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 0.1,
                   ),
                 ),
-                SizedBox(height: 15.0),
-                Container(
+                SizedBox(
+                  width: 150.0,
+                  height: 45.0,
+                  child: Divider(
+                    color: Colors.grey.shade300,
+                    height: 5.0,
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   color: Colors.grey.shade700,
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phonelink_ring,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phonelink_ring,
+                      color: Colors.blueGrey.shade200,
+                      size: 30.0,
+                    ),
+                    title: Text(
+                      '+371 263 80 104',
+                      style: TextStyle(
                         color: Colors.blueGrey.shade200,
-                        size: 30.0,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 18.0,
                       ),
-                      SizedBox(width: 10.0),
-                      Text(
-                        '+371 263 80 104',
-                        style: TextStyle(
-                          color: Colors.blueGrey.shade200,
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 18.0,
-                        ),
+                    ),
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                  color: Colors.grey.shade700,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.blueGrey.shade200,
+                      size: 30.0,
+                    ),
+                    title: Text(
+                      'piladisi@gmail.com',
+                      style: TextStyle(
+                        color: Colors.blueGrey.shade200,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 18.0,
                       ),
-                    ],
+                    ),
                   ),
                 ),
               ],
